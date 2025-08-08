@@ -1,0 +1,117 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  color: #fff;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #ffcc00;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-image: url('https://images.unsplash.com/photo-1507878866276-a947ef722fee?fit=crop&w=1500&q=80');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.hero .content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about, .contact {
+  background-color: #1c1c2e;
+  margin: 20px;
+  border-radius: 12px;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.about h3, .contact h3 {
+  font-size: 2rem;
+  color: #ffcc00;
+  margin-bottom: 20px;
+}
+
+.about p, .contact p {
+  font-size: 1rem;
+  color: #ddd;
+  line-height: 1.7;
+}
+
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+
+  .about, .contact {
+    padding: 30px 10px;
+  }
+}
