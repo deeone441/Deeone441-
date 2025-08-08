@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Young Vick | Upcoming Artist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Young Vick</h1>
+  </header>
+
+  <section class="hero">
+    <div class="content">
+      <h2>Upcoming Afrobeat Star 🎤</h2>
+      <p>Turning passion into sound. Straight outta Naija 🇳🇬 — Vibes unmatched!</p>
+    </div>
+  </section>
+
+  <section class="about">
+    <h3>About Me</h3>
+    <p>
+      I'm Young Vick, an upcoming artist in love with music and creativity.
+      I mix Afrobeat, trap, and vibes to bring fire to your speakers.🔥<br><br>
+      Follow my journey as I go from bedroom beats to global stages!
+    </p>
+  </section>
+
+  <section class="contact">
+    <h3>Connect With Me</h3>
+    <p><strong>📞 Phone:</strong> 07036065488</p>
+    <p><strong>📷 Instagram:</strong> <a href="https://instagram.com/dee.one441" target="_blank">@dee.one441</a></p>
+    <p><strong>🎵 TikTok:</strong> @dee.one441</p>
+    <p><strong>📧 Email:</strong> youngvickmusic@gmail.com</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Young Vick. All rights reserved.
+  </footer>
+</body>
+</html>
